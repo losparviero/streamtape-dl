@@ -1,0 +1,17 @@
+{
+  "name": "streamtape-dl",
+  "description": "Download Streamtape videos through the CLI.",
+  "version": "1.0.0",
+  "main": "streamtape-dl.js",
+  "scripts": {
+	"start": "node streamtape-dl.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zubin",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "input": "^1.0.1",
+    "streamtape": "^1.0.1"
+  }
+}
