@@ -12,4 +12,4 @@ jobs:
       - name: "Checkout Code"
         uses: actions/checkout@v3
       - name: "Install"
-        run: npm ci
+        run: npm ci  --verbose
