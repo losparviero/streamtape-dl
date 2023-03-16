@@ -1,6 +1,6 @@
 /*!
  * Streamtape-dl
- * Copyright(c) 2023 Zubin
+ * Copyright (c) 2023 Zubin
  */
 
 // Add env vars as a preliminary

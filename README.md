@@ -41,7 +41,7 @@ node streamtape-dl
 
 ### Mechanism
 
-The script uses the [streamtape](https://github.com/losparviero/streamtape) lib to generate direct download link.
+The script uses the [streamtape](https://www.npmjs.com/package/streamtape) lib to generate direct download link.
 
 <br>
 
