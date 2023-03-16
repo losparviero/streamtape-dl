@@ -35,7 +35,7 @@ touch .env && { echo "API_USER="; echo "API_PASS="; } >> .env && nano .env
 On Windows
 
 ```cmd
-type nul > .env && echo APIUSER= >> .env && echo APIPASS= >> .env && notepad .env
+type nul > .env && echo API_USER= >> .env && echo API_PASS= >> .env && notepad .env
 ```
 
 </details>

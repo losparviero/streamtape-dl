@@ -1,6 +1,6 @@
 {
   "name": "streamtape-dl",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Download Streamtape videos through the CLI.",
   "main": "streamtape-dl.js",
   "bin": {
