@@ -28,13 +28,13 @@ Make sure env vars are set in your working directory.
 
 On Mac / Linux
 
-```shell
+```bash
 touch .env && { echo "API_USER="; echo "API_PASS="; } >> .env && nano .env
 ```
 
 On Windows
 
-```shell
+```cmd
 type nul > .env && echo APIUSER= >> .env && echo APIPASS= >> .env && notepad .env
 ```
 
@@ -44,7 +44,12 @@ type nul > .env && echo APIUSER= >> .env && echo APIPASS= >> .env && notepad .en
 
 ### Install
 
-1. Run ```npm i -g streamtape-dl```.
+1. Run
+
+```shell
+npm i -g streamtape-dl
+```
+
 2. Make a .env file and provide API credentials.
 3. Stream in browser or download with your favorite download manager.
 
@@ -54,9 +59,9 @@ type nul > .env && echo APIUSER= >> .env && echo APIPASS= >> .env && notepad .en
 
 ### Uninstall
 
-1. Use ```rm -rf```.
-
-*Note:* If you're unfamiliar with this command, delete project folder from file explorer.
+```shell
+npm uninstall streamtape-dl
+```
 
 <br>
 
