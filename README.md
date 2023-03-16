@@ -18,19 +18,23 @@ With install:
 ```
 streamtape-dl
 ```
-#### Make sure env vars are set in your working directory.
+<details>
+<summary>
+Make sure env vars are set in your working directory.
+</summary>
 
 <br>
 
-On Mac / Linux
+• On Mac / Linux
 
 ```
 mkdir Streamtape && cd Streamtape && touch .env && { echo "API_USER="; echo "API_PASS="; } >> .env && nano .env
 ```
-On Windows
+• On Windows
 ```
 mkdir Streamtape && cd Streamtape && type nul > .env && echo APIUSER= >> .env && echo APIPASS= >> .env && notepad .env
 ```
+</details>
 
 <br>
 
