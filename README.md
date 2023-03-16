@@ -9,7 +9,7 @@ Download Streamtape videos through the CLI.
 Without installing:
 
 ```
-npx github:losparviero/streamtape-dl
+npx streamtape-dl
 
 ```
 
@@ -23,9 +23,8 @@ streamtape-dl
 
 ### Install
 
-1. Clone repo.
-2. Run ```npm i -g``` in project folder.
-3. Rename example.env to .env and provide API credentials.
+1. Run ```npm i -g streamtape-dl```.
+2. Rename example.env to .env and provide API credentials.
 
 #### Get user & pass from [Streamtape](https://streamtape.com/accpanel).
 

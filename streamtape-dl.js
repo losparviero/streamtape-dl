@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 /*!
  * Streamtape-dl
  * Copyright (c) 2023 Zubin
