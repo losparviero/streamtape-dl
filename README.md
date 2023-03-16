@@ -18,6 +18,7 @@ With install:
 ```
 streamtape-dl
 ```
+#### Make sure env vars are set in your working directory.
 
 <br>
 
