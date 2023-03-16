@@ -1,0 +1,15 @@
+name: "Build"
+run-name: Building
+on: [push, pull_request]
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        os: [windows-latest, macos-latest, ubuntu-latest]
+
+    steps:
+      - name: "Checkout Code"
+        uses: actions/checkout@v3
+      - name: "Install"
+        run: npm ci
