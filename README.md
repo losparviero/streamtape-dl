@@ -26,13 +26,13 @@ Make sure env vars are set in your working directory.
 
 <br>
 
-• On Mac / Linux
+On Mac / Linux
 
 ```shell
 mkdir Streamtape && cd Streamtape && touch .env && { echo "API_USER="; echo "API_PASS="; } >> .env && nano .env
 ```
 
-• On Windows
+On Windows
 
 ```shell
 mkdir Streamtape && cd Streamtape && type nul > .env && echo APIUSER= >> .env && echo APIPASS= >> .env && notepad .env
