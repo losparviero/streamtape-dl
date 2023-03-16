@@ -4,7 +4,7 @@
   "description": "Download Streamtape videos through the CLI.",
   "main": "streamtape-dl.js",
   "bin": {
-	"streamtape-dl": "./node_modules/streamtape-dl/streamtape-dl.js"
+    "streamtape-dl": "node ./streamtape-dl.js"
   },
   "author": {
 	"name": "Zubin",

@@ -16,7 +16,7 @@ npx github:losparviero/streamtape-dl
 With install:
 
 ```
-node streamtape-dl
+streamtape-dl
 ```
 
 <br>
