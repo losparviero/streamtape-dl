@@ -24,7 +24,8 @@ streamtape-dl
 ### Install
 
 1. Run ```npm i -g streamtape-dl```.
-2. Rename example.env to .env and provide API credentials.
+2. Make a .env file and provide API credentials.
+3. Stream in browser or download with your favorite download manager.
 
 #### Get user & pass from [Streamtape](https://streamtape.com/accpanel).
 
