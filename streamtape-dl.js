@@ -2,7 +2,11 @@
 
 /*!
  * Streamtape-dl
- * Copyright (c) 2023 Zubin
+ * Copyright (c) 2023
+ *
+ * @author Zubin
+ * @username (GitHub) losparviero
+ * @license AGPL-3.0
  */
 
 // Add env vars as a preliminary
@@ -13,6 +17,9 @@ const input = require("input");
 
 async function getLink() {
   let url;
+
+  // Input
+
   do {
     url = await input.text("Enter Streamtape link:", { default: null });
     if (url == null) {
